@@ -370,7 +370,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='3'/><level id='1'/><level id='2'/>
+        <level id='2'/><level id='1'/><level id='3'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -385,7 +385,7 @@
         </status>
         <cells>
           <cell>
-            0 333 <level id='1'/>0001 0 
+            0 333 <level id='3'/>"-"0 
           </cell>
           </cells>
         <fx>
@@ -420,7 +420,7 @@
         </status>
         <cells>
           <cell>
-            0 333 <level id='3'/>"-"0 
+            0 333 <level id='1'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -540,37 +540,6 @@
         </nodePos>
         </pegbar>
       <pegbar id="Col1">
-        <parent handle="B" id="Col3" parentHandle="B">
-          </parent>
-        <isOpened>
-          0 
-        </isOpened>
-        <center>
-          0 0 0 0 
-        </center>
-        <status>
-          0 
-        </status>
-        <sx>
-          <default>
-            1 
-          </default>
-          </sx>
-        <sy>
-          <default>
-            1 
-          </default>
-          </sy>
-        <sc>
-          <default>
-            1 
-          </default>
-          </sc>
-        <nodePos>
-          1.234e+09 5.678e+09 
-        </nodePos>
-        </pegbar>
-      <pegbar id="Col2">
         <parent handle="B" id="Table" parentHandle="B">
           </parent>
         <isOpened>
@@ -621,6 +590,37 @@
               0 0.568454 
             </L>
             </keyframes>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
+        <parent handle="B" id="Col3" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
           </sc>
         <nodePos>
           1.234e+09 5.678e+09 
@@ -2192,10 +2192,10 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='7'/>
+          <Toonz_columnFx id='5'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='5'/>
+          <Toonz_columnFx id='7'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -2258,5 +2258,6 @@
     "| #2   27 сент. 18   21:00              |"
     "| #3   27 сент. 18   21:38              |"
     "| #4   27 сент. 18   21:47              |"
+    "| #5   27 сент. 18   21:53              |"
   </history>
   </tnz>
