@@ -350,11 +350,19 @@
         </path>
         
       </level>
+      <level id='2'>
+        A_mesh 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/A..mesh"
+        </path>
+        
+      </level>
       
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/>
+        <level id='1'/><level id='2'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -362,7 +370,7 @@
     </levelSet>
   <xsheet>
     <columns>
-      <levelColumn id='2'>
+      <levelColumn id='3'>
         
         <status>
           0 
@@ -373,7 +381,7 @@
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='3'>
+          <Toonz_columnFx id='4'>
             
             <params>
               </params>
@@ -397,6 +405,18 @@
         </fx>
         
       </levelColumn>
+      <meshColumn id='5'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 1 <level id='2'/>0001 0 
+          </cell>
+          </cells>
+        
+      </meshColumn>
       
     </columns>
     <pegbars>
@@ -477,8 +497,42 @@
         </nodePos>
         </pegbar>
       <pegbar id="Col1">
+        <parent handle="B" id="Col2" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
         <parent handle="B" id="Table" parentHandle="B">
           </parent>
+        <name>
+          Col1_mesh 
+        </name>
         <isOpened>
           0 
         </isOpened>
@@ -514,11 +568,11 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='3'/>
+          <Toonz_columnFx id='4'/>
         </fxnode>
         </terminal>
       <xsheet>
-        <Toonz_xsheetFx id='4'>
+        <Toonz_xsheetFx id='6'>
           
           <params>
             </params>
@@ -541,13 +595,13 @@
         
       </xsheet>
       <output>
-        <Toonz_outputFx id='5'>
+        <Toonz_outputFx id='7'>
           
           <params>
             </params>
           <ports>
             <source>
-              <Toonz_xsheetFx id='4'/>
+              <Toonz_xsheetFx id='6'/>
             </source>
             </ports>
           <numberId>
@@ -575,5 +629,6 @@
     "| #    DATE:       Time:   MACHINE:    USER:           |"
     "| #1   23 сент. 18   16:28              |"
     "| #2   27 сент. 18   21:00              |"
+    "| #3   27 сент. 18   21:08              |"
   </history>
   </tnz>
