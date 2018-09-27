@@ -358,11 +358,19 @@
         </path>
         
       </level>
+      <level id='3'>
+        "фон1"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras/фон1.jpg"
+        </path>
+        
+      </level>
       
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/><level id='2'/>
+        <level id='3'/><level id='1'/><level id='2'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -370,7 +378,7 @@
     </levelSet>
   <xsheet>
     <columns>
-      <levelColumn id='3'>
+      <levelColumn id='4'>
         
         <status>
           0 
@@ -381,7 +389,7 @@
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='4'>
+          <Toonz_columnFx id='5'>
             
             <params>
               </params>
@@ -405,7 +413,42 @@
         </fx>
         
       </levelColumn>
-      <meshColumn id='5'>
+      <levelColumn id='6'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 333 <level id='3'/>"-"0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='7'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <meshColumn id='8'>
         
         <status>
           0 
@@ -497,7 +540,7 @@
         </nodePos>
         </pegbar>
       <pegbar id="Col1">
-        <parent handle="B" id="Col2" parentHandle="B">
+        <parent handle="B" id="Col3" parentHandle="B">
           </parent>
         <isOpened>
           0 
@@ -528,6 +571,62 @@
         </nodePos>
         </pegbar>
       <pegbar id="Col2">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -1.9326 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.0568413 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 0.568454 
+            </L>
+            </keyframes>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
         <parent handle="B" id="Table" parentHandle="B">
           </parent>
         <name>
@@ -1985,11 +2084,14 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='4'/>
+          <Toonz_columnFx id='7'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='5'/>
         </fxnode>
         </terminal>
       <xsheet>
-        <Toonz_xsheetFx id='6'>
+        <Toonz_xsheetFx id='9'>
           
           <params>
             </params>
@@ -2012,13 +2114,13 @@
         
       </xsheet>
       <output>
-        <Toonz_outputFx id='7'>
+        <Toonz_outputFx id='10'>
           
           <params>
             </params>
           <ports>
             <source>
-              <Toonz_xsheetFx id='6'/>
+              <Toonz_xsheetFx id='9'/>
             </source>
             </ports>
           <numberId>
@@ -2047,5 +2149,6 @@
     "| #1   23 сент. 18   16:28              |"
     "| #2   27 сент. 18   21:00              |"
     "| #3   27 сент. 18   21:38              |"
+    "| #4   27 сент. 18   21:44              |"
   </history>
   </tnz>
