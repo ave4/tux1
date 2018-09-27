@@ -557,6 +557,182 @@
             1 
           </default>
           </sc>
+        <plasticSD>
+          <VertexDeforms>
+            <Name>
+              Root 
+            </Name>
+            <Hook>
+              1 
+            </Hook>
+            <VD>
+              </VD>
+            <Name>
+              "Vertex __1"
+            </Name>
+            <Hook>
+              2 
+            </Hook>
+            <VD>
+              </VD>
+            <Name>
+              "Vertex __2"
+            </Name>
+            <Hook>
+              3 
+            </Hook>
+            <VD>
+              </VD>
+            <Name>
+              "Vertex __3"
+            </Name>
+            <Hook>
+              4 
+            </Hook>
+            <VD>
+              </VD>
+            <Name>
+              "Vertex __4"
+            </Name>
+            <Hook>
+              5 
+            </Hook>
+            <VD>
+              </VD>
+            <Name>
+              "Vertex __5"
+            </Name>
+            <Hook>
+              6 
+            </Hook>
+            <VD>
+              </VD>
+            <Name>
+              "Vertex __6"
+            </Name>
+            <Hook>
+              7 
+            </Hook>
+            <VD>
+              </VD>
+            </VertexDeforms>
+          <SkelIdsParam>
+            <default>
+              1 
+            </default>
+            </SkelIdsParam>
+          <Skeletons>
+            <SkelId>
+              1 
+            </SkelId>
+            <Skeleton>
+              <V>
+                7 
+                <Vertex>
+                  <name>
+                    Root 
+                  </name>
+                  <number>
+                    0 
+                  </number>
+                  <pos>
+                    -86.0844 -243.431 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __1"
+                  </name>
+                  <number>
+                    1 
+                  </number>
+                  <pos>
+                    -85.0549 10.8549 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __2"
+                  </name>
+                  <number>
+                    2 
+                  </number>
+                  <pos>
+                    1.42283 -55.0328 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __3"
+                  </name>
+                  <number>
+                    3 
+                  </number>
+                  <pos>
+                    68.3401 -143.57 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __4"
+                  </name>
+                  <number>
+                    4 
+                  </number>
+                  <pos>
+                    -146.825 -57.0918 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __5"
+                  </name>
+                  <number>
+                    5 
+                  </number>
+                  <pos>
+                    -208.594 -132.245 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __6"
+                  </name>
+                  <number>
+                    6 
+                  </number>
+                  <pos>
+                    -90.2023 127.188 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                </V>
+              <E>
+                6 0 1 1 2 2 3 1 4 4 5 1 6 
+              </E>
+              </Skeleton>
+            </Skeletons>
+          </plasticSD>
         <nodePos>
           1.234e+09 5.678e+09 
         </nodePos>
@@ -629,6 +805,6 @@
     "| #    DATE:       Time:   MACHINE:    USER:           |"
     "| #1   23 сент. 18   16:28              |"
     "| #2   27 сент. 18   21:00              |"
-    "| #3   27 сент. 18   21:10              |"
+    "| #3   27 сент. 18   21:12              |"
   </history>
   </tnz>
