@@ -370,7 +370,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='2'/><level id='1'/><level id='3'/>
+        <level id='1'/><level id='2'/><level id='3'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -395,6 +395,9 @@
               </params>
             <ports>
               </ports>
+            <dagNodePos>
+              25005 25005 
+            </dagNodePos>
             <numberId>
               0 
             </numberId>
@@ -430,6 +433,9 @@
               </params>
             <ports>
               </ports>
+            <dagNodePos>
+              25005 24955 
+            </dagNodePos>
             <numberId>
               0 
             </numberId>
@@ -491,7 +497,7 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24500 25550 
         </nodePos>
         <camera>
           <cameraSize>
@@ -536,7 +542,7 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24500 25500 
         </nodePos>
         </pegbar>
       <pegbar id="Col1">
@@ -592,7 +598,7 @@
             </keyframes>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24620 25500 
         </nodePos>
         </pegbar>
       <pegbar id="Col2">
@@ -623,7 +629,7 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24740 25450 
         </nodePos>
         </pegbar>
       <pegbar id="Col3">
@@ -697,11 +703,17 @@
               </prev>
               73 -4.31785 2 0.311946 
             </S>
-            <L>
+            <S>
               <prev>
                 0.312557 -2 0 
               </prev>
-              79 0.312557 
+              79 0.312557 2 0 
+            </S>
+            <L>
+              <prev>
+                -8.9378 -2.66667 0 
+              </prev>
+              87 -8.9378 
             </L>
             </keyframes>
           </x>
@@ -761,11 +773,17 @@
               </prev>
               73 3.86544 2 0.0199114 
             </S>
-            <L>
+            <S>
               <prev>
                 4.07902 -2 0 
               </prev>
-              79 4.07902 
+              79 4.07902 2 0 
+            </S>
+            <L>
+              <prev>
+                0.526601 -2.66667 0 
+              </prev>
+              87 0.526601 
             </L>
             </keyframes>
           </y>
@@ -2182,7 +2200,7 @@
             </Skeletons>
           </plasticSD>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24620 25450 
         </nodePos>
         </pegbar>
       <grid_dimension>
@@ -2192,10 +2210,10 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='5'/>
+          <Toonz_columnFx id='7'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='7'/>
+          <Toonz_columnFx id='5'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -2205,6 +2223,9 @@
             </params>
           <ports>
             </ports>
+          <dagNodePos>
+            25120 25000 
+          </dagNodePos>
           <numberId>
             0 
           </numberId>
@@ -2231,6 +2252,9 @@
               <Toonz_xsheetFx id='9'/>
             </source>
             </ports>
+          <dagNodePos>
+            25235 24995 
+          </dagNodePos>
           <numberId>
             0 
           </numberId>
@@ -2259,5 +2283,6 @@
     "| #3   27 сент. 18   21:38              |"
     "| #4   27 сент. 18   21:47              |"
     "| #5   27 сент. 18   21:53              |"
+    "| #6   06 янв. 19   18:37               |"
   </history>
   </tnz>
